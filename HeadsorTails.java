@@ -29,9 +29,9 @@ class HeadsorTails{
         System.out.println("Heads: " + hnum + ", Tails: " + tnum);
 
         if(hnum > tnum){
-            System.out.println("You won!");
+            System.out.println(name + " won!");
         } else {
-            System.out.println("You lost");
+            System.out.println(name + " lost");
         }
     }
 }
